@@ -149,7 +149,7 @@
       const groups = {};
       let supported = 0;
       [...files].forEach((file) => {
-        const match = file.name.toLowerCase().match(/\\.([a-z0-9]+)$/);
+        const match = file.name.toLowerCase().match(/\.([a-z0-9]+)$/);
         const folder = match ? folders[match[1]] : null;
         if (folder) { (groups[folder] ||= []).push(file.name); supported += 1; }
       });
