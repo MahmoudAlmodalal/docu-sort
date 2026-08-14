@@ -6,6 +6,8 @@
 
 **DocuSort** is a dependency-free document organizer for Windows, Linux, and Termux. It scans selected directories, copies supported documents into predictable extension-based folders, preserves existing files, and writes a machine-readable JSON report for every completed run.
 
+> **Live demo:** [mahmoudalmodalal.github.io/docu-sort](https://mahmoudalmodalal.github.io/docu-sort/)
+
 ## Why DocuSort?
 
 The project is designed for safe, repeatable organization rather than destructive file moves. By default, it scans the current user's home directory, never follows symbolic links, avoids the generated output directory, and resolves filename collisions by adding a numeric suffix such as `report_1.pdf`.
